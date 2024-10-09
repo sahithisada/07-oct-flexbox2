@@ -1,0 +1,174 @@
+body{
+    width: 1250px;
+    height: 580px;
+    background-color: rgb(239, 240, 199);
+}
+.fullbody{
+    display: flex;
+}
+h1, h2{
+    text-align: center;
+}
+#container{
+    width: 700px;
+    background-color: rgb(90, 108, 102);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px;
+    margin: 10px;
+}
+.item{
+    width: 50px;
+    height: 100px;
+    border: 2px solid white;
+    background-color: rgb(96, 86, 75);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#container1{
+    width: 700px;
+    background-color: rgb(32, 37, 36);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    padding: 20px;
+    margin: 10px;
+}
+.item1{
+    width: 50px;
+    height: 100px;
+    border: 2px solid white;
+    background-color: rgb(96, 86, 75);
+    color: white;
+    text-align: center;
+}
+#container2{
+    width: 600px;
+    background-color: rgb(7, 99, 68);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 20px;
+    margin: 10px;
+}
+.item2{
+    width: 50px;
+    height: 100px;
+    border: 2px solid white;
+    background-color: rgb(96, 86, 75);
+    color: white;
+    text-align: center;
+}
+#baselineprop{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: baseline;
+}
+#baseline{
+    background-color: rgb(208, 225, 225);
+    width: 150px;
+    height: 110px;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+#stretchprop{
+    background-color: rgb(77, 112, 147);
+    width: 800px;
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+#stretch{
+    background-color: rgb(114, 148, 148);
+    color: white;
+    font-size: 3rem;
+    border: 3px solid black;
+    text-align: center;
+}
+.order{
+    background-color: rgb(222, 142, 173);
+    width: 300px;
+    height: 70px;
+    display: flex;
+    flex-direction:row;
+}
+.letters{
+    width: 70px;
+    height: 70px;
+    color: rgb(0, 0, 0);
+    font-size: 5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid rgb(101, 8, 8);
+    text-align: center;
+}
+.alignSelf{
+    background-color: rgb(69, 87, 86);
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.alignletters{
+    background-color: rgb(226, 226, 237);
+    width: 100px;
+    height: 50px;
+    color: rgb(45, 3, 3);
+    font-size: 3rem;
+    border: 3px solid rgb(44, 2, 2);
+    text-align: center;
+}
+.flexBasis{
+    background-color:rgb(87, 110, 112);
+    height: 100px;
+    display: flex;
+}
+.flexbasis{
+    width: 60px;
+    color: rgb(179, 149, 155);
+    border: 2px solid black;
+    flex-basis: 170;
+    font-size: 4rem;
+    flex-grow: 1;
+}
+.flexGrow{
+    background-color:darkturquoise;
+    width: 1250px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.flexgrow{
+    width: 100px;
+    height: 80px;
+    color:rgb(0, 0, 0);
+    font-size: 4rem;
+    border: 3px solid black;
+    text-align: center;
+}
+.flexShrink{
+    background-color: lightseagreen;
+    width: 251px;
+    height: 200px;
+    display: flex;
+    margin: 1px;
+    flex-wrap: wrap;
+
+}
+.flexshrink{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    border: 3px dotted rgb(255, 254, 254);
+    text-align: center;
+}
